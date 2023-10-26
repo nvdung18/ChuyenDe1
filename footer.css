@@ -1,0 +1,249 @@
+.faulconer-drive1 {
+    position: absolute;
+    width: 88.98%;
+    top: calc(50% - 9px);
+    left: 11.31%;
+    display: inline-block;
+  }
+  .location1,
+  .round-place-24px-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .round-place-24px-icon1 {
+    height: 100%;
+    width: 6.77%;
+    right: 93.23%;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .location1 {
+    height: 18.38%;
+    width: 76.97%;
+    right: 23.03%;
+    bottom: 81.62%;
+  }
+  .div10 {
+    position: absolute;
+    width: 68.27%;
+    top: calc(50% - 9px);
+    left: 32.54%;
+    display: inline-block;
+  }
+  .round-phone-24px-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 19.5%;
+    top: 0;
+    right: 80.5%;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .div11,
+  .phone1 {
+    position: absolute;
+  }
+  .phone1 {
+    height: 100%;
+    width: 33.33%;
+    top: 0;
+    right: 66.67%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .div11 {
+    width: 67.18%;
+    top: calc(50% - 9px);
+    left: 32.02%;
+    display: inline-block;
+  }
+  .round-local-printshop-24px-icon1 {
+    height: 100%;
+    width: 19.18%;
+    right: 80.82%;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .fax1,
+  .frame23,
+  .round-local-printshop-24px-icon1 {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+  }
+  .fax1 {
+    height: 100%;
+    width: 33.88%;
+    right: 0;
+    bottom: 0;
+    left: 66.12%;
+  }
+  .frame23 {
+    left: 0;
+    width: 404.7px;
+    height: 24px;
+  }
+  .social-media1 {
+    position: absolute;
+    width: 16.1%;
+    top: calc(50% - 10.35px);
+    left: 0;
+    display: inline-block;
+    height: 23.6px;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+  }
+  .frame-icon4 {
+    position: absolute;
+    top: 0;
+    left: 109.7px;
+    width: 394.8px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .social1 {
+    top: 64px;
+    left: 0;
+    height: 26.5px;
+  }
+  .frame22,
+  .information1,
+  .social1 {
+    position: absolute;
+    width: 504.5px;
+  }
+  .frame22 {
+    top: 40px;
+    left: 0;
+    height: 90.6px;
+    overflow: hidden;
+  }
+  .information1 {
+    top: 22px;
+    left: 585.5px;
+    height: 130.6px;
+  }
+  .brown-and-yellow-charity-vecto2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 475px;
+    height: 153px;
+    object-fit: cover;
+  }
+  .frame21 {
+    position: absolute;
+    top: 70px;
+    left: 4.5px;
+    width: 1090.1px;
+    height: 153px;
+    overflow: hidden;
+  }
+  .rectangle-div {
+    position: absolute;
+    height: 0.59%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 99.41%;
+    left: 0;
+    background-color: #59d9cc;
+  }
+  .about-us1,
+  .contact-us1,
+  .help1,
+  .legal1,
+  .privacy-policy1 {
+    position: absolute;
+    width: 11.47%;
+    top: calc(50% - 11.8px);
+    left: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 23.6px;
+  }
+  .contact-us1,
+  .help1,
+  .legal1,
+  .privacy-policy1 {
+    width: 17.48%;
+    left: 59.78%;
+  }
+  .contact-us1,
+  .help1,
+  .legal1 {
+    width: 13.35%;
+    left: 86.65%;
+  }
+  .contact-us1,
+  .help1 {
+    width: 14.1%;
+    left: 20.86%;
+  }
+  .help1 {
+    width: 6.02%;
+    left: 44.35%;
+  }
+  .frame26 {
+    top: 12.9px;
+    width: 583.5px;
+    height: 23.6px;
+    overflow: hidden;
+  }
+  .frame-child2,
+  .frame25,
+  .frame26 {
+    position: absolute;
+    left: 0;
+  }
+  .frame-child2 {
+    height: 2.74%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 97.26%;
+    background-color: #7bb9fc;
+    opacity: 0.2;
+    mix-blend-mode: normal;
+  }
+  .frame25 {
+    top: 300.1px;
+    width: 1178px;
+    height: 36.5px;
+    overflow: hidden;
+  }
+  .footer-ui1,
+  .frame24 {
+    position: absolute;
+    top: 0;
+    width: 1178px;
+    height: 336.6px;
+  }
+  .frame24 {
+    left: 0;
+    overflow: hidden;
+  }
+  .footer-ui1 {
+    left: 130.5px;
+  }
+  .footer1 {
+    position: relative;
+    background-color:#fff;
+    width: 100%;
+    height: 366px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #09142f;
+    font-family: "Assistant";
+  }
+  
