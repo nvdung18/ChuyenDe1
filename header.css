@@ -75,6 +75,7 @@
 .button6 {
     position: relative;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .component-11 {
