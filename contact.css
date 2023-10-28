@@ -263,7 +263,7 @@ input {
   border: 0px solid;
   height: 20px;
   width: 160px;
-  font-size: 1em;
+  font-size: 24px;
 }
 
 input::placeholder,
@@ -278,6 +278,7 @@ input::placeholder,
 
 .body {
 
+  
   top: 24.19rem;
   /* left: calc(40% - 300px); */
   width: 89.69rem;
