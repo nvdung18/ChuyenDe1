@@ -1,0 +1,397 @@
+.map-icon {
+  position: absolute;
+  top: 9.25rem;
+  left: 0.99rem;
+  width: 88.7rem;
+  height: 55.94rem;
+  object-fit: cover;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 717.5px);
+  background-color: rgba(48, 205, 189, 0.2);
+  width: 90.69rem;
+  height: 73.81rem;
+}
+
+.email-smileyecharitycom,
+.phone-84-12367897 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 25.69rem;
+  height: 4.31rem;
+}
+.phone-84-12367897 {
+  left: 39.42rem;
+}
+
+.contact-info {
+  position: absolute;
+  top: 1.9rem;
+  left: 13.31rem;
+  width: 65.11rem;
+  height: 4.31rem;
+}
+
+.fb-icon,
+.ig-icon,
+.x-icon {
+  position: absolute;
+  object-fit: cover;
+}
+
+.x-icon {
+  top: 0;
+  left: 15.86rem;
+  width: 5.76rem;
+  height: 4.68rem;
+}
+
+.fb-icon,
+.ig-icon {
+  width: 4.66rem;
+}
+
+.ig-icon {
+  top: 0.03rem;
+  left: 7.64rem;
+  height: 4.66rem;
+}
+
+.fb-icon {
+  bottom: 0.01rem;
+  left: calc(50% - 172.95px);
+  height: 4.68rem;
+}
+
+.social-media {
+  position: absolute;
+  top: 60.5rem;
+  left: 63.51rem;
+  width: 21.62rem;
+  height: 4.69rem;
+}
+
+.submit-button-child {
+  position: absolute;
+  top: 0;
+  left: -0.25rem;
+  border-radius: 40px;
+  width: 18.06rem;
+  height: 5.65rem;
+}
+
+.submit {
+  position: absolute;
+  top: 1.13rem;
+  left: 1.97rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 12.19rem;
+  height: 3.41rem;
+}
+
+.submit-button {
+  position: absolute;
+  top: 60.06rem;
+  left: 5.48rem;
+  width: 17.56rem;
+  height: 5.15rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+
+.email-textbox-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 35.24rem;
+  height: 4.91rem;
+}
+
+.email {
+  position: absolute;
+  top: 0.68rem;
+  left: 1.11rem;
+  display: flex;
+  align-items: center;
+  width: 31.75rem;
+  height: 3.56rem;
+}
+
+.email-textbox,
+.name-textbox-child {
+  position: absolute;
+  top: 0;
+  height: 4.91rem;
+}
+
+.email-textbox {
+  left: 40.96rem;
+  width: 35.24rem;
+}
+
+.name-textbox-child {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 36.28rem;
+}
+
+.name {
+  position: absolute;
+  top: 0.55rem;
+  left: 1.15rem;
+  display: flex;
+  align-items: center;
+  width: 32.69rem;
+  height: 3.56rem;
+}
+
+.name-textbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36.28rem;
+  height: 4.91rem;
+}
+
+.phone {
+  position: absolute;
+  top: 0.69rem;
+  left: 1.16rem;
+  display: flex;
+  align-items: center;
+  width: 32.69rem;
+  height: 3.56rem;
+}
+
+.address-textbox-child,
+.phone-textbox {
+  position: absolute;
+  left: 0;
+  height: 4.91rem;
+}
+
+.phone-textbox {
+  top: 11.38rem;
+  width: 36.28rem;
+}
+
+.address-textbox-child {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 35.17rem;
+}
+
+.address {
+  position: absolute;
+  top: 0.69rem;
+  left: 1.13rem;
+  display: flex;
+  align-items: center;
+  width: 31.7rem;
+  height: 3.56rem;
+}
+
+.address-textbox {
+  position: absolute;
+  top: 11.38rem;
+  left: 40.96rem;
+  width: 35.17rem;
+  height: 4.91rem;
+}
+
+.message-textbox-child {
+  position: absolute;
+  /* top: 0;
+  left: 0 ; */
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 36.28rem;
+  height: 3.67rem;
+}
+
+body > div > div.body > form > div.message-textbox > input {
+  padding-left: 1em;
+  padding-bottom: 5em;
+}
+
+.message {
+  position: absolute;
+  top: 0.68rem;
+  left: 1.15rem;
+  display: flex;
+  align-items: center;
+  width: 32.69rem;
+  height: 3.56rem;
+}
+
+.message-textbox {
+  top: 25.88rem;
+  left: -12em;
+  width: 36.28rem;
+  height: 13.67rem;
+}
+
+.body,
+.message-textbox,
+.textboxs {
+  position: absolute;
+}
+
+*:focus {
+  outline: none;
+}
+
+input {
+  padding-left: 1em;
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 160px;
+  font-size: 24px;
+}
+
+input::placeholder,
+.textboxs {
+  top: 12.56rem;
+  left: 4.68rem;
+  width: 76.2rem;
+  height: 39.54rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-turquoise-100);
+}
+
+.body {
+
+  
+  top: 24.19rem;
+  /* left: calc(40% - 300px); */
+  width: 89.69rem;
+  height: 73.81rem;
+
+  position: absolute;
+
+  left: calc(50% - 25.5em);
+  right: auto;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us {
+  position: absolute;
+  top: 15.5rem;
+  left: calc(50% - 271px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 33.88rem;
+  height: 4.06rem;
+  font-size: 6rem;
+  letter-spacing: 0.02em;
+  line-height: 145.3%;
+  display: flex;
+  font-family: var(--font-hind-vadodara);
+  color: #000;
+}
+
+
+.button {
+  position: relative;
+  font-weight: 600;
+}
+
+/* 
+.container{
+
+   top: 24.19rem;
+  left: 0.31rem;
+  width: 89.69rem;
+  height: 73.81rem;
+
+
+  position: absolute;
+
+  left: calc(45% - 500px);
+  right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+
+.footer-ui1{
+position: absolute;
+left: calc(50% - 44.5em) !important;
+top: 0;
+right: auto;
+align-self: center;
+}
+
+
+
+
+
+.contact {
+  position: relative;
+  width: 100%;
+  height: 105rem;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-sanchez);
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+
+
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+  --font-raleway: Raleway;
+  --font-lato: Lato;
+  --font-hind-vadodara: "Hind Vadodara";
+  --font-sanchez: Sanchez;
+  --font-assistant: Assistant;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-9xl: 28px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-aliceblue: #e9f1f8;
+  --color-darkslategray: #2e4049;
+  --color-dimgray-100: #616161;
+  --neutral-d-grey: #4d4d4d;
+  --color-turquoise-100: #30cdbd;
+  --dark: #09142f;
+  --green-mid: #59d9cc;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+}
