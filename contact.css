@@ -10,6 +10,7 @@
 .background {
   position: absolute;
   bottom: 0;
+  border-radius: 12px;
   left: calc(50% - 717.5px);
   background-color: rgba(48, 205, 189, 0.2);
   width: 90.69rem;
@@ -256,7 +257,6 @@ body > div > div.body > form > div.message-textbox > input {
 *:focus {
   outline: none;
 }
-
 input {
   padding-left: 1em;
   background-color: transparent;
@@ -280,7 +280,6 @@ input::placeholder,
 
   
   top: 24.19rem;
-  /* left: calc(40% - 300px); */
   width: 89.69rem;
   height: 73.81rem;
 
@@ -317,24 +316,6 @@ input::placeholder,
   font-weight: 600;
 }
 
-/* 
-.container{
-
-   top: 24.19rem;
-  left: 0.31rem;
-  width: 89.69rem;
-  height: 73.81rem;
-
-
-  position: absolute;
-
-  left: calc(45% - 500px);
-  right: auto;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
-} */
 
 
 .footer-ui1{

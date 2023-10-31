@@ -118,7 +118,6 @@ body {
   margin: 0;
   line-height: normal;
 }
-
 .footer1 {
   font-size: 14px;
   top: 18em;
@@ -131,6 +130,27 @@ body {
   align-self: center;
 }
 
+.social-media1{
+  width: 20%;
+}
+.information1{
+  width: 500px;
+}
+.faulconer-drive1{
+  width: 100%;
+}
+.frame23{
+  width: 100%;
+}
+.frame26{
+  width: 650.5px;
+}
+.div10,.div11{
+  left: 24.54%;
+}
+.fax1{
+  left:47.12%
+}
 .text {
   font-family: "Montserrat", sans-serif;
   color: rgb(66, 62, 62);
