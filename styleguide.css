@@ -1,0 +1,11 @@
+:root {
+    --dark: rgba(10, 20, 47, 1);
+    --neutraldgrey: rgba(77, 77, 77, 1);
+    --collection-1-pink-low: rgba(235, 196, 242, 1);
+    --collection-1-blue-low: rgba(182, 214, 242, 1);
+    --collection-1-green-mid: rgba(89, 217, 204, 1);
+    --collection-1-green-semi: rgba(191, 217, 209, 1);
+    --collection-1-green-low: rgba(99, 242, 216, 1);
+    --collection-1-gray: rgba(97, 97, 97, 1);
+  }
+  
