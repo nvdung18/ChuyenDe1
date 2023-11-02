@@ -97,9 +97,9 @@ input::placeholder,
 
 .body {
   top: 14rem;
-  width: 100%;
+  width: 85%;
   display: flex;
-  margin: 1em;
+  margin: 1em 7em;
   position: absolute;
   text-align: center;
   align-items: center;
@@ -194,7 +194,7 @@ input[type="text"] {
   box-shadow: 0px 1px 6px gray;
 }
 .contact-us-div {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .first-name,
