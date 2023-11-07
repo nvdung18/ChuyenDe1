@@ -14,6 +14,11 @@
         <link rel="stylesheet" href=  "https://fonts.googleapis.com/css2?family=Lato:wght@600;700&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400&display=swap" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./header.css">
@@ -27,9 +32,21 @@
         <div class="qa-contact-us-group">
             <div class="qa-contact-us1">QA</div>
             <div class="qa-contact-us1"><a href="/ChuyenDe1/contact.html">Contact Us</a></div>
-            <div class="switch-language1">
-                <b class="english1">English</b>
-                <img class="language-1-11" alt="" src="./public/language-1-1@2x.png" />
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    English
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">English
+                        </button></li>
+                    <li><button class="dropdown-item" type="button">Vietnameses
+                        </button></li>
+                    <li><button class="dropdown-item" type="button">Japanese
+                        </button></li>
+                    <li><button class="dropdown-item" type="button">French
+                        </button></li>
+                </ul>
             </div>
         </div>
         <div class="menu1">
@@ -249,6 +266,7 @@
             </div>
         </div>
     </div>
+    <script src="/switch_language.js"></script>
 </body>
 
 </html>
