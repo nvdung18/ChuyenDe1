@@ -1,6 +1,6 @@
 .faulconer-drive1 {
     position: absolute;
-    width: 88.98%;
+    width: 100%;
     top: calc(50% - 9px);
     left: 11.31%;
     display: inline-block;
@@ -22,13 +22,13 @@
   }
   .location1 {
     height: 18.38%;
-    width: 76.97%;
+    width: 85.97%;
     right: 23.03%;
     bottom: 81.62%;
   }
   .div10 {
     position: absolute;
-    width: 68.27%;
+    width: 70%;
     top: calc(50% - 9px);
     left: 32.54%;
     display: inline-block;
@@ -51,7 +51,7 @@
   }
   .phone1 {
     height: 100%;
-    width: 33.33%;
+    width: 37.33%;
     top: 0;
     right: 66.67%;
     bottom: 0;
@@ -82,10 +82,10 @@
   }
   .fax1 {
     height: 100%;
-    width: 33.88%;
+    width: 37.88%;
     right: 0;
     bottom: 0;
-    left: 66.12%;
+    left: 61.12%;
   }
   .frame23 {
     left: 0;
@@ -94,7 +94,7 @@
   }
   .social-media1 {
     position: absolute;
-    width: 16.1%;
+    width: 17.1%;
     top: calc(50% - 10.35px);
     left: 0;
     display: inline-block;
@@ -164,7 +164,7 @@
   .legal1,
   .privacy-policy1 {
     position: absolute;
-    width: 11.47%;
+    width: 12.47%;
     top: calc(50% - 11.8px);
     left: 0;
     text-transform: uppercase;
@@ -175,7 +175,7 @@
   .help1,
   .legal1,
   .privacy-policy1 {
-    width: 17.48%;
+    width: 20.48%;
     left: 59.78%;
   }
   .contact-us1,
@@ -186,7 +186,7 @@
   }
   .contact-us1,
   .help1 {
-    width: 14.1%;
+    width: 16.1%;
     left: 20.86%;
   }
   .help1 {
