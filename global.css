@@ -7,6 +7,8 @@ html,
 body {
   margin: 0px;
   height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
@@ -15,5 +17,6 @@ button:focus-visible {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 @import url("https://fonts.googleapis.com/css?family=Inter:700,400|Work+Sans:500|Lato:700,600|Assistant:400|Raleway:700");

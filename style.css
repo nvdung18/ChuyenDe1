@@ -1,3 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+.container {
+padding: 10px 100px;
+}
+
+.flex-center--all {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30CDBD; padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
 .detail-event {
   background-color: #ffffff;
   display: flex;

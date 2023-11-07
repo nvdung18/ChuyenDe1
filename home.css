@@ -45,7 +45,9 @@ body {
   --br-xs: 12px;
   --br-11xl: 30px;
 }
-
+b{
+  font-weight: 600 !important;
+}
 .qa-contact-us {
   position: relative;
   font-weight: 500;
