@@ -30,14 +30,6 @@
   left: 39.42rem;
 }
 
-.contact-info {
-  position: absolute;
-  top: 1.9rem;
-  left: 13.31rem;
-  width: 65.11rem;
-  height: 4.31rem;
-}
-
 .fb-icon,
 .ig-icon,
 .x-icon {
@@ -77,187 +69,14 @@
   height: 4.69rem;
 }
 
-.submit-button-child {
-  position: absolute;
-  top: 0;
-  left: -0.25rem;
-  border-radius: 40px;
-  width: 18.06rem;
-  height: 5.65rem;
-}
-
-.submit {
-  position: absolute;
-  top: 1.13rem;
-  left: 1.97rem;
-  font-weight: 600;
-  display: inline-block;
-  width: 12.19rem;
-  height: 3.41rem;
-}
-
-.submit-button {
-  position: absolute;
-  top: 60.06rem;
-  left: 5.48rem;
-  width: 17.56rem;
-  height: 5.15rem;
-  text-align: center;
-  font-size: 2.5rem;
-  color: var(--color-white);
-  font-family: var(--font-lato);
-}
-
-.email-textbox-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 35.24rem;
-  height: 4.91rem;
-}
-
-.email {
-  position: absolute;
-  top: 0.68rem;
-  left: 1.11rem;
-  display: flex;
-  align-items: center;
-  width: 31.75rem;
-  height: 3.56rem;
-}
-
-.email-textbox,
-.name-textbox-child {
-  position: absolute;
-  top: 0;
-  height: 4.91rem;
-}
-
-.email-textbox {
-  left: 40.96rem;
-  width: 35.24rem;
-}
-
-.name-textbox-child {
-  left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 36.28rem;
-}
-
-.name {
-  position: absolute;
-  top: 0.55rem;
-  left: 1.15rem;
-  display: flex;
-  align-items: center;
-  width: 32.69rem;
-  height: 3.56rem;
-}
-
-.name-textbox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 36.28rem;
-  height: 4.91rem;
-}
-
-.phone {
-  position: absolute;
-  top: 0.69rem;
-  left: 1.16rem;
-  display: flex;
-  align-items: center;
-  width: 32.69rem;
-  height: 3.56rem;
-}
-
-.address-textbox-child,
-.phone-textbox {
-  position: absolute;
-  left: 0;
-  height: 4.91rem;
-}
-
-.phone-textbox {
-  top: 11.38rem;
-  width: 36.28rem;
-}
-
-.address-textbox-child {
-  top: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 35.17rem;
-}
-
-.address {
-  position: absolute;
-  top: 0.69rem;
-  left: 1.13rem;
-  display: flex;
-  align-items: center;
-  width: 31.7rem;
-  height: 3.56rem;
-}
-
-.address-textbox {
-  position: absolute;
-  top: 11.38rem;
-  left: 40.96rem;
-  width: 35.17rem;
-  height: 4.91rem;
-}
-
-.message-textbox-child {
-  position: absolute;
-  /* top: 0;
-  left: 0 ; */
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 36.28rem;
-  height: 3.67rem;
-}
-
-body > div > div.body > form > div.message-textbox > input {
-  padding-left: 1em;
-  padding-bottom: 5em;
-}
-
-.message {
-  position: absolute;
-  top: 0.68rem;
-  left: 1.15rem;
-  display: flex;
-  align-items: center;
-  width: 32.69rem;
-  height: 3.56rem;
-}
-
-.message-textbox {
-  top: 25.88rem;
-  left: -12em;
-  width: 36.28rem;
-  height: 13.67rem;
-}
-
-.body,
-.message-textbox,
-.textboxs {
+.body {
   position: absolute;
 }
 
 *:focus {
   outline: none;
 }
-input {
+/* input {
   padding-left: 1em;
   background-color: transparent;
   border: 0px solid;
@@ -274,25 +93,178 @@ input::placeholder,
   height: 39.54rem;
   font-size: var(--font-size-5xl);
   color: var(--color-turquoise-100);
-}
+} */
 
 .body {
-
-  
-  top: 24.19rem;
-  width: 89.69rem;
-  height: 73.81rem;
-
+  top: 14rem;
+  width: 85%;
+  display: flex;
+  margin: 1em 7em;
   position: absolute;
-
-  left: calc(50% - 25.5em);
-  right: auto;
-
   text-align: center;
   align-items: center;
   justify-content: center;
 }
+.bottom-line {
+  margin-left: 0;
+  width: 3em;
+  height: 3px;
+  background-color: #179498;
+  border-radius: 12px;
+}
+.title,
+.subtitle {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  font-size: 36px;
+  font-weight: 600;
+}
+.faqs-link {
+  color: #30cdbd;
+}
+.subtitle {
+  font-size: 14px;
+}
+.content {
+  text-align: center;
+  height: 100%;
+  width: 1440px;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+.block-grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.grid-item {
+  width: 80%;
+  margin-top: 3em;
+  text-align: center;
+}
+.info-div {
+  position: relative;
+  box-shadow: 0px 1px 12px gray;
+  border-radius: 6px;
+  width: 26em;
+  height: 5em;
+  float: left;
+  /* display: inline-block; */
+  margin: 1em 0em;
+}
+.info-details,
+.info-icon {
+  width: 100%;
+  margin: 6px 0;
+}
+.info-title {
+  margin: 6px 0;
+  font-weight: 600;
+}
+.info-details {
+  text-align: left;
+  margin-left: 6em;
+  font-family: "Montserrat", sans-serif;
+}
+.info-icon {
+  margin-top: 0 !important;
+  float: left;
+  position: absolute;
+  width: 4em;
+  height: 100%;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
 
+  background-color: #cffffa;
+}
+.textfield {
+  width: 20em;
+  height: 4em;
+  border-radius: 6px;
+  margin: 1em 0em;
+  padding-left: 1em;
+}
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 1px 6px gray;
+}
+.contact-us-div {
+  margin-bottom: 3em;
+}
+
+.first-name,
+.last-name {
+  background: url(public/user-form-icon.png) no-repeat scroll 18.5em 1.5em;
+}
+.email {
+  background: url(public/email-form-icon.png) no-repeat scroll 18.5em 1.5em;
+}
+.phone {
+  background: url(public/phone-form-icon.png) no-repeat scroll 18.5em 1.5em;
+}
+.address {
+  background: url(public/location-form-icon.png) no-repeat scroll 42em 1.5em;
+}
+.phone,
+.email,
+.first-name,
+.last-name,
+.address {
+  background-size: 18px;
+}
+.message {
+  background: url(public/message-form-icon.png) no-repeat scroll 42em 4em;
+  background-size: 30px;
+  height: 10em;
+}
+.basic-info-div {
+  grid-gap: 1em 3em;
+}
+.add-info-textbox {
+  width: 100%;
+}
+
+div.add-info-div.block-grid-container > div > div > input {
+  width: 98%;
+}
+.submit {
+  margin-top: 2em;
+  position: relative;
+  width: 8em;
+  height: 4em;
+  background-color: #30cdbd;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  position: absolute;
+  top: 1.25em;
+  left: 2.5em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+}
+
+.icon-image {
+  margin: 1.25em 0;
+  width: 32px;
+  height: 32px;
+}
+
+.info-textbox {
+  margin: 12px 0;
+  width: 100%;
+  font-size: 12px;
+}
+.contact-info {
+  margin: 2em 0;
+}
 .contact-us {
   position: absolute;
   top: 15.5rem;
@@ -310,30 +282,23 @@ input::placeholder,
   color: #000;
 }
 
-
 .button {
   position: relative;
   font-weight: 600;
 }
 
-
-
-.footer-ui1{
-position: absolute;
-left: calc(50% - 44.5em) !important;
-top: 0;
-right: auto;
-align-self: center;
+.footer-ui1 {
+  position: absolute;
+  left: calc(50% - 44.5em) !important;
+  top: 0;
+  right: auto;
+  align-self: center;
 }
-
-
-
-
 
 .contact {
   position: relative;
   width: 100%;
-  height: 105rem;
+  height: 40em;
   text-align: left;
   font-size: var(--font-size-9xl);
   color: var(--color-dimgray-100);
@@ -344,8 +309,6 @@ body {
   margin: 0;
   line-height: normal;
 }
-
-
 
 :root {
   /* fonts */
