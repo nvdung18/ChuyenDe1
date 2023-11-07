@@ -1,0 +1,141 @@
+body {
+  height: 2000px;
+}
+.banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-in {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-in .text-banner {
+  font-family: "Sanchez", Helvetica;
+  font-weight: 400;
+  color: #2fcdbd;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -32px;
+  width: 100%;
+}
+
+.banner-in .banner-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.banner-in .banner-input .input {
+  position: absolute;
+  top: 92px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-in .banner-input .input input {
+  border: none;
+  height: 46px;
+  flex: 1;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 60px;
+  padding: 8px 20px;
+}
+
+.banner-in .banner-input .input img {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.banner-in .banner-input input:focus {
+  outline: none;
+}
+
+.banner-in .banner-input span {
+  margin-top: 24px;
+  font-family: "Sanchez", Helvetica;
+  font-weight: 400;
+  color: #2fcdbd;
+  font-size: 46px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 100%;
+}
+
+.banner .image-banner {
+  min-width: 100%;
+  height: auto;
+}
+
+.banner .rectangle {
+  position: relative;
+  width: 100%;
+  height: 559px;
+  left: 0;
+  right: 0;
+  background-color: #59d9cc4c;
+  border-radius: 12px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 60px 120px;
+  gap: 24px;
+  row-gap: 46px;
+  justify-content: space-around;
+}
+
+.content .list-questions .title-question {
+  font-family: "Sanchez", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 100%;
+  color: #2fcdbd;
+  margin-bottom: 12px;
+}
+
+.content ul li {
+  font-family: "Sanchez", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32px;
+  width: 100%;
+  cursor: pointer;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.content .list-questions .answer--1 {
+  font-family: "Sanchez", Helvetica;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 32px;
+  width: 100%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.none {
+  display: none;
+}

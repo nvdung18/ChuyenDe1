@@ -42,6 +42,7 @@ html {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
+  padding: 0 120px;
 }
 
 .contributors .top-item {
@@ -212,7 +213,7 @@ html {
 .contributors .volunteer-item {
   width: 339px;
   height: 448px;
-  margin: 24px;
+  margin: 12px;
 }
 
 .contributors .volunteer-item {
@@ -364,7 +365,7 @@ html {
 .contributors .sponsor-item {
   width: 339px;
   height: 448px;
-  margin: 24px;
+  margin: 12px;
 }
 
 .contributors .sponsor-item {
