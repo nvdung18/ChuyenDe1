@@ -1,0 +1,185 @@
+body {
+  height: 2000px;
+}
+.banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .image-banner {
+  width: 100%;
+}
+
+.text {
+  font-size: 24px;
+  width: 100%;
+  padding: 40px 120px;
+  font-family: "Wavefont", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.content {
+  padding: 0 120px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.image-nav {
+  width: 425px;
+}
+
+.image-nav img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.register-volunteer-form {
+  margin-right: 120px;
+}
+
+.register-volunteer-form .item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-volunteer-form .name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+}
+
+.register-volunteer-form .first-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-volunteer-form .last-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-volunteer-form .address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+}
+
+.register-volunteer-form label {
+  font-size: 14px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: #2e4049;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register-volunteer-form input {
+  font-size: 16px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  padding: 8px 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  color: #2e4049;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+  }
+
+  .image-nav {
+    display: none;
+  }
+
+  .register-volunteer-form .name {
+    display: flex;
+    flex-direction: column;
+  }
+  .register-volunteer-form .address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-volunteer-form {
+    width: 100%;
+  }
+
+  .text {
+    padding: 20px 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .volunteer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.button-send {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.button-send button {
+  border: none;
+  border-radius: 8px;
+  background-color: #59d9cc;
+  padding: 12px;
+  cursor: pointer;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.note {
+  margin-top: 12px;
+  margin-left: 12px;
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+.note img {
+  width: 14px;
+}
+
+.note .text-secure {
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: #2e4049;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
