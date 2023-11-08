@@ -199,16 +199,16 @@ input[type="text"] {
 
 .first-name,
 .last-name {
-  background: url(public/user-form-icon.png) no-repeat scroll 18.5em 1.5em;
+  background: url(public/user-form-icon.png) no-repeat scroll 18em 1.5em;
 }
 .email {
-  background: url(public/email-form-icon.png) no-repeat scroll 18.5em 1.5em;
+  background: url(public/email-form-icon.png) no-repeat scroll 18em 1.5em;
 }
 .phone {
-  background: url(public/phone-form-icon.png) no-repeat scroll 18.5em 1.5em;
+  background: url(public/phone-form-icon.png) no-repeat scroll 18em 1.5em;
 }
 .address {
-  background: url(public/location-form-icon.png) no-repeat scroll 42em 1.5em;
+  background: url(public/location-form-icon.png) no-repeat scroll 41em 1.5em;
 }
 .phone,
 .email,
@@ -218,8 +218,8 @@ input[type="text"] {
   background-size: 18px;
 }
 .message {
-  background: url(public/message-form-icon.png) no-repeat scroll 42em 4em;
-  background-size: 30px;
+  background: url(public/message-form-icon.png) no-repeat scroll 40.5em 4em;
+  background-size: 26px;
   height: 10em;
 }
 .basic-info-div {
@@ -230,7 +230,7 @@ input[type="text"] {
 }
 
 div.add-info-div.block-grid-container > div > div > input {
-  width: 98%;
+  width: 100%;
 }
 .submit {
   margin-top: 2em;
