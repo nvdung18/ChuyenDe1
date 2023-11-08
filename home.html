@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="./global.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work Sans:wght@500&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" />
-  <link rel="stylesheet" href=  "https://fonts.googleapis.com/css2?family=Lato:wght@600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@600;700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400&display=swap" />
 </head>
@@ -26,20 +26,26 @@
       <div class="header1">
         <div class="qa-contact-us-group">
           <div class="qa-contact-us1">QA</div>
-          <div class="qa-contact-us1"><a href="/ChuyenDe1/contact.html">Contact Us</a></div>
+          <div class="qa-contact-us1">
+            <a href="/ChuyenDe1/contact.html" class="home-active-language l-english">Contact Us</a>
+            <a href="/ChuyenDe1/contact.html" class="home-disable-language l-vietnamese">Liên hệ</a>
+            <a href="/ChuyenDe1/contact.html" class="home-disable-language l-japanese">お問い合わせ</a>
+            <a href="/ChuyenDe1/contact.html" class="home-disable-language l-french">Contactez-nous</a>
+          </div>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
               aria-expanded="false">
               English
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <li><button class="dropdown-item" type="button">English
+              <li><button class="dropdown-item" type="button" onclick="switchLanguageForPage('l-english')">English
                 </button></li>
-              <li><button class="dropdown-item" type="button">Vietnameses
+              <li><button class="dropdown-item" type="button"
+                  onclick="switchLanguageForPage('l-vietnamese')">Vietnameses
                 </button></li>
-              <li><button class="dropdown-item" type="button">Japanese
+              <li><button class="dropdown-item" type="button" onclick="switchLanguageForPage('l-japanese')">Japanese
                 </button></li>
-              <li><button class="dropdown-item" type="button">French
+              <li><button class="dropdown-item" type="button" onclick="switchLanguageForPage('l-french')">French
                 </button></li>
             </ul>
           </div>
@@ -50,33 +56,81 @@
 
           <div class="home-programs-news-contributor-parent">
             <div class="home-programs-news">
-              <a href="/ChuyenDe1/home.html">
+              <a href="/ChuyenDe1/home.html" class="home-active-language l-english">
                 Home
               </a>
+              <a href="/ChuyenDe1/home.html" class="home-disable-language l-vietnamese">
+                Trang chủ
+              </a>
+              <a href="/ChuyenDe1/home.html" class="home-disable-language l-japanese">
+                家
+              </a>
+              <a href="/ChuyenDe1/home.html" class="home-disable-language l-french">
+                Maison
+              </a>
             </div>
             <div class="home-programs-news">
-              <a href="/ChuyenDe1/search-event.html">
+              <a href="/ChuyenDe1/search-event.html" class="home-active-language l-english">
                 Programs
               </a>
+              <a href="/ChuyenDe1/search-event.html" class="home-disable-language l-vietnamese">
+                Dự án
+              </a>
+              <a href="/ChuyenDe1/search-event.html" class="home-disable-language l-japanese">
+                プログラム
+              </a>
+              <a href="/ChuyenDe1/search-event.html" class="home-disable-language l-french">
+                Programmes
+              </a>
             </div>
             <div class="home-programs-news">
-              <a href="">
+              <a href="" class="home-active-language l-english">
                 News
               </a>
-            </div>
-            <div class="home-programs-news">
-              <a href="">
-                Contributors
+              <a href="" class="home-disable-language l-vietnamese">
+                Tin tức
+              </a>
+              <a href="" class="home-disable-language l-japanese">
+                ニュース
+              </a>
+              <a href="" class="home-disable-language l-french">
+                Nouvelles
               </a>
             </div>
             <div class="home-programs-news">
-              <a href="/ChuyenDe1/archiement.html">
+              <a href="" class="home-active-language l-english">
+                Contributors
+              </a>
+              <a href="" class="home-disable-language l-vietnamese" style="width: max-content;">
+                Người đóng góp
+              </a>
+              <a href="" class="home-disable-language l-japanese">
+                貢献者
+              </a>
+              <a href="" class="home-disable-language l-french">
+                Contributeurs
+              </a>
+            </div>
+            <div class="home-programs-news">
+              <a href="/ChuyenDe1/archiement.html" class="home-active-language l-english">
                 Achievements
+              </a>
+              <a href="/ChuyenDe1/archiement.html" class="home-disable-language l-vietnamese">
+                Thành tựu
+              </a>
+              <a href="/ChuyenDe1/archiement.html" class="home-disable-language l-japanese">
+                業績
+              </a>
+              <a href="/ChuyenDe1/archiement.html" class="home-disable-language l-french">
+                Réalisations
               </a>
             </div>
 
             <div class="component-11">
-              <div class="button6" style="width: 61px;">Join us</div>
+              <div style="width: 61px;" class="button6 home-active-language l-english">Join us</div>
+              <div style="width: 61px;" class="button6 home-disable-language l-vietnamese">Tham gia</div>
+              <div style="width: 61px;" class="button6 home-disable-language l-japanese">参加しませんか</div>
+              <div style="width: 61px;" class="button6 home-disable-language l-french">Rejoignez-nous</div>
             </div>
           </div>
         </div>
@@ -90,7 +144,10 @@
       <div class="first-section">
         <div class="text-parent">
           <div class="text">
-            <b class="d-n-pht">DỰ ÁN PHÁT TRIỄN LÀNG PÀ-ONG</b>
+            <b class="d-n-pht home-active-language l-english">PA-ONG VILLAGE DEVELOPMENT PROJECT</b>
+            <b class="d-n-pht home-disable-language l-vietnamese">DỰ ÁN PHÁT TRIỂN LÀNG PA-ONG</b>
+            <b class="d-n-pht home-disable-language l-japanese">パオン村開発プロジェクト</b>
+            <b class="d-n-pht home-disable-language l-french">PROJET DE DÉVELOPPEMENT DU VILLAGE DE PA-ONG</b>
             <div class="time-112023-">Time: 11/2023 - 11/2028</div>
           </div>
           <div class="lorem-ipsum-is">
@@ -99,8 +156,11 @@
             ever since the 1500s, when...
           </div>
           <div class="file">
-            <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-            <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+            <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                target="_blank">Pitch file</a></div>
+            <div class="plan-file"><a
+                href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                target="_blank">Plan file</a></div>
           </div>
           <div class="funding">
             <div class="funding1">Funding</div>
@@ -116,11 +176,14 @@
               <div class="component-8">
                 <div class="button1">Donation</div>
               </div>
-              <b class="be-a-contributor">Be a contributor or sponsor</b>
+              <b class="be-a-contributor home-active-language l-english">Be a contributor or sponsor</b>
+              <b class="be-a-contributor home-disable-language l-vietnamese">Trở thành nhà tài trợ</b>
+              <b class="be-a-contributor home-disable-language l-japanese">貢献者またはスポンサーになる</b>
+              <b class="be-a-contributor home-disable-language l-french">Être contributeur ou sponsor</b>
             </div>
             <div class="icons8-share-60-1-parent">
               <img class="icons8-share-60-1" alt="" src="./public/icons8share60-1@2x.png" data-bs-toggle="modal"
-              data-bs-target="#exampleModal"/>
+                data-bs-target="#exampleModal" />
 
               <div class="icons8-heart-50-1-parent">
                 <img class="icons8-heart-50-1" alt="" src="./public/icons8heart50-1@2x.png" />
@@ -201,20 +264,42 @@
                     standard dummy text ever since the 1500s, when...
                   </div>
                   <div class="file1">
-                    <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                    <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                    <div class="pitch-file"><a
+                        href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                        target="_blank">Pitch file</a></div>
+                    <div class="plan-file"><a
+                        href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                        target="_blank">Plan file</a></div>
                   </div>
                   <div class="title">
-                    <b class="chng-trnh-pht">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                    <b class="chng-trnh-pht home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT PROGRAM</b>
+                    <b class="chng-trnh-pht home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ HỘ GIA
+                      ĐÌNH</b>
+                    <b class="chng-trnh-pht home-disable-language l-japanese">世帯経済開発プログラム</b>
+                    <b class="chng-trnh-pht home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE DES
+                      MÉNAGES</b>
                     <div class="time-112023-1">Time: 11/2023 - 11/2028</div>
                   </div>
                   <div class="file-parent">
                     <div class="file2">
-                      <div class="fund">Fund</div>
-                      <div class="achievements">Achievements</div>
+                      <!-- eng -->
+                      <div class="fund home-active-language l-english">Fund</div>
+                      <div class="achievements home-active-language l-english">Achievements</div>
+                      <!-- vietnamese -->
+                      <div class="fund home-disable-language l-vietnamese">Quỹ</div>
+                      <div class="achievements home-disable-language l-vietnamese">Thành tựu</div>
+                      <!-- japanese -->
+                      <div class="fund home-disable-language l-japanese">基金</div>
+                      <div class="achievements home-disable-language l-japanese">業績</div>
+                      <!-- french -->
+                      <div class="fund home-disable-language l-french">Fonds</div>
+                      <div class="achievements home-disable-language l-french">Réalisations</div>
                     </div>
                     <div class="file3">
-                      <div class="detail-report">Detail report</div>
+                      <div class="detail-report home-active-language l-english">Detail report</div>
+                      <div class="detail-report home-disable-language l-vietnamese">Báo cáo chi tiết</div>
+                      <div class="detail-report home-disable-language l-japanese">詳細レポート</div>
+                      <div class="detail-report home-disable-language l-french">Rapport détaillé</div>
                     </div>
                   </div>
                   <div class="icons8-share-60-1-container">
@@ -243,20 +328,42 @@
                     standard dummy text ever since the 1500s, when...
                   </div>
                   <div class="file1">
-                    <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                    <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                    <div class="pitch-file"><a
+                        href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                        target="_blank">Pitch file</a></div>
+                    <div class="plan-file"><a
+                        href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                        target="_blank">Plan file</a></div>
                   </div>
                   <div class="title">
-                    <b class="chng-trnh-pht">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                    <b class="chng-trnh-pht home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT PROGRAM</b>
+                    <b class="chng-trnh-pht home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ HỘ GIA
+                      ĐÌNH</b>
+                    <b class="chng-trnh-pht home-disable-language l-japanese">世帯経済開発プログラム</b>
+                    <b class="chng-trnh-pht home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE DES
+                      MÉNAGES</b>
                     <div class="time-112023-1">Time: 11/2023 - 11/2028</div>
                   </div>
                   <div class="file-parent">
                     <div class="file2">
-                      <div class="fund">Fund</div>
-                      <div class="achievements">Achievements</div>
+                      <!-- eng -->
+                      <div class="fund home-active-language l-english">Fund</div>
+                      <div class="achievements home-active-language l-english">Achievements</div>
+                      <!-- vietnamese -->
+                      <div class="fund home-disable-language l-vietnamese">Quỹ</div>
+                      <div class="achievements home-disable-language l-vietnamese">Thành tựu</div>
+                      <!-- japanese -->
+                      <div class="fund home-disable-language l-japanese">基金</div>
+                      <div class="achievements home-disable-language l-japanese">業績</div>
+                      <!-- french -->
+                      <div class="fund home-disable-language l-french">Fonds</div>
+                      <div class="achievements home-disable-language l-french">Réalisations</div>
                     </div>
                     <div class="file3">
-                      <div class="detail-report">Detail report</div>
+                      <div class="detail-report home-active-language l-english">Detail report</div>
+                      <div class="detail-report home-disable-language l-vietnamese">Báo cáo chi tiết</div>
+                      <div class="detail-report home-disable-language l-japanese">詳細レポート</div>
+                      <div class="detail-report home-disable-language l-french">Rapport détaillé</div>
                     </div>
                   </div>
                   <div class="icons8-share-60-1-container">
@@ -275,7 +382,18 @@
                 <img class="frame-icon1" alt="" src="./public/frame1.svg" />
 
                 <div class="frame12">
-                  <div class="events-is-taking">Events Performed</div>
+                  <div class="events-is-taking home-active-language l-english ">
+                    Events Performed
+                  </div>
+                  <div class="events-is-taking home-disable-language l-vietnamese">
+                    Sự kiện đã thực hiện
+                  </div>
+                  <div class="events-is-taking home-disable-language l-japanese">
+                    実施されたイベント
+                  </div>
+                  <div class="events-is-taking home-disable-language l-french">
+                    Événements effectués
+                  </div>
                   <img class="frame-inner" alt="" src="./public/line-1.svg" />
                 </div>
               </div>
@@ -300,17 +418,31 @@
                       when...
                     </div>
                     <div class="file7">
-                      <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                      <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                      <div class="pitch-file"><a
+                          href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                          target="_blank">Pitch file</a></div>
+                      <div class="plan-file"><a
+                          href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                          target="_blank">Plan file</a></div>
                     </div>
                     <div class="join-us-button1">
                       <div class="component-81">
                         <div class="button1">Donation</div>
                       </div>
-                      <b class="be-a-contributor1">Be a contributor or sponsor</b>
+                      <b class="be-a-contributor1 home-active-language l-english">Be a contributor or sponsor</b>
+                      <b class="be-a-contributor1 home-disable-language l-vietnamese">Trở thành nhà tài trợ</b>
+                      <b class="be-a-contributor1 home-disable-language l-japanese">貢献者またはスポンサーになる</b>
+                      <b class="be-a-contributor1 home-disable-language l-french">Être contributeur ou sponsor</b>
                     </div>
                     <div class="title2">
-                      <b class="chng-trnh-pht2">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                      <b class="chng-trnh-pht2 home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT
+                        PROGRAM</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ HỘ
+                        GIA
+                        ĐÌNH</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-japanese">世帯経済開発プログラム</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE DES
+                        MÉNAGES</b>
                       <div class="time-112023-3">Time: 11/2023 - 11/2028</div>
                     </div>
                     <div class="funding2">
@@ -320,8 +452,8 @@
                       <div class="funding3">Funding</div>
                     </div>
                     <div class="frame-div">
-                      <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"/>
+                      <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                       <div class="icons8-heart-50-1-parent1">
                         <img class="icons8-heart-50-13" alt="" src="./public/icons8heart50-12@2x.png" />
@@ -347,17 +479,31 @@
                       when...
                     </div>
                     <div class="file7">
-                      <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                      <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                      <div class="pitch-file"><a
+                          href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                          target="_blank">Pitch file</a></div>
+                      <div class="plan-file"><a
+                          href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                          target="_blank">Plan file</a></div>
                     </div>
                     <div class="join-us-button1">
                       <div class="component-81">
                         <div class="button1">Donation</div>
                       </div>
-                      <b class="be-a-contributor1">Be a contributor or sponsor</b>
+                      <b class="be-a-contributor1 home-active-language l-english">Be a contributor or sponsor</b>
+                      <b class="be-a-contributor1 home-disable-language l-vietnamese">Trở thành nhà tài trợ</b>
+                      <b class="be-a-contributor1 home-disable-language l-japanese">貢献者またはスポンサーになる</b>
+                      <b class="be-a-contributor1 home-disable-language l-french">Être contributeur ou sponsor</b>
                     </div>
                     <div class="title2">
-                      <b class="chng-trnh-pht2">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                      <b class="chng-trnh-pht2 home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT
+                        PROGRAM</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ HỘ
+                        GIA
+                        ĐÌNH</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-japanese">世帯経済開発プログラム</b>
+                      <b class="chng-trnh-pht2 home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE DES
+                        MÉNAGES</b>
                       <div class="time-112023-3">Time: 11/2023 - 11/2028</div>
                     </div>
                     <div class="funding2">
@@ -367,8 +513,8 @@
                       <div class="funding3">Funding</div>
                     </div>
                     <div class="frame-div">
-                      <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"/>
+                      <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                       <div class="icons8-heart-50-1-parent1">
                         <img class="icons8-heart-50-13" alt="" src="./public/icons8heart50-12@2x.png" />
@@ -382,15 +528,26 @@
                   <img class="frame-icon1" alt="" src="./public/frame1.svg" />
 
                   <div class="frame12">
-                    <div class="events-is-taking">Upcoming Events</div>
+                    <div class="events-is-taking home-active-language l-english ">
+                      Events Is Taking Place
+                    </div>
+                    <div class="events-is-taking home-disable-language l-vietnamese">
+                      Sự kiện đang diễn ra
+                    </div>
+                    <div class="events-is-taking home-disable-language l-japanese">
+                      イベントが開催されています
+                    </div>
+                    <div class="events-is-taking home-disable-language l-french">
+                      Des événements ont lieu
+                    </div>
                     <img class="frame-inner" alt="" src="./public/line-1.svg" />
                   </div>
                 </div>
               </div>
               <div class="frame16">
-                <div class="frame17">
+                <!-- <div class="frame17">
                   <b class="join-us">Join us</b>
-                </div>
+                </div> -->
                 <div class="frame18">
                   <div class="events-is-taking-place">
                     <div class="frame-card-events2">
@@ -412,17 +569,30 @@
                           when...
                         </div>
                         <div class="file7">
-                          <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                          <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                          <div class="pitch-file"><a
+                              href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                              target="_blank">Pitch file</a></div>
+                          <div class="plan-file"><a
+                              href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                              target="_blank">Plan file</a></div>
                         </div>
                         <div class="join-us-button1">
                           <div class="component-81">
                             <div class="button1">Donation</div>
                           </div>
-                          <b class="be-a-contributor1">Be a contributor or sponsor</b>
+                          <b class="be-a-contributor1 home-active-language l-english">Be a contributor or sponsor</b>
+                          <b class="be-a-contributor1 home-disable-language l-vietnamese">Trở thành nhà tài trợ</b>
+                          <b class="be-a-contributor1 home-disable-language l-japanese">貢献者またはスポンサーになる</b>
+                          <b class="be-a-contributor1 home-disable-language l-french">Être contributeur ou sponsor</b>
                         </div>
                         <div class="title2">
-                          <b class="chng-trnh-pht2">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                          <b class="chng-trnh-pht2 home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT
+                            PROGRAM</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ
+                            HỘ GIA ĐÌNH</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-japanese">世帯経済開発プログラム</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE
+                            DES MÉNAGES</b>
                           <div class="time-112023-3">
                             Time: 11/2023 - 11/2028
                           </div>
@@ -434,8 +604,8 @@
                           <div class="funding3">Funding</div>
                         </div>
                         <div class="frame-div">
-                          <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"/>
+                          <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                           <div class="icons8-heart-50-1-parent1">
                             <img class="icons8-heart-50-13" alt="" src="./public/icons8heart50-12@2x.png" />
@@ -462,17 +632,30 @@
                           when...
                         </div>
                         <div class="file7">
-                          <div class="pitch-file"><a href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF" target="_blank">Pitch file</a></div>
-                          <div class="plan-file"><a href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true" target="_blank">Plan file</a></div>
+                          <div class="pitch-file"><a
+                              href="https://drive.google.com/drive/folders/1LjAQWPc2vkj9a4qdBJ7ngHfznyCdaOuF"
+                              target="_blank">Pitch file</a></div>
+                          <div class="plan-file"><a
+                              href="https://docs.google.com/document/d/1E3FJ-_xRJVNIufNneIlmX5srQkppdrp2/edit?rtpof=true"
+                              target="_blank">Plan file</a></div>
                         </div>
                         <div class="join-us-button1">
                           <div class="component-81">
                             <div class="button1">Donation</div>
                           </div>
-                          <b class="be-a-contributor1">Be a contributor or sponsor</b>
+                          <b class="be-a-contributor1 home-active-language l-english">Be a contributor or sponsor</b>
+                          <b class="be-a-contributor1 home-disable-language l-vietnamese">Trở thành nhà tài trợ</b>
+                          <b class="be-a-contributor1 home-disable-language l-japanese">貢献者またはスポンサーになる</b>
+                          <b class="be-a-contributor1 home-disable-language l-french">Être contributeur ou sponsor</b>
                         </div>
                         <div class="title2">
-                          <b class="chng-trnh-pht2">CHƯƠNG TRÌNH PHÁT TRIỄN KINH TẾ HỘ</b>
+                          <b class="chng-trnh-pht2 home-active-language l-english">HOUSEHOLD ECONOMIC DEVELOPMENT
+                            PROGRAM</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-vietnamese">CHƯƠNG TRÌNH PHÁT TRIỂN KINH TẾ
+                            HỘ GIA ĐÌNH</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-japanese">世帯経済開発プログラム</b>
+                          <b class="chng-trnh-pht2 home-disable-language l-french">PROGRAMME DE DÉVELOPPEMENT ÉCONOMIQUE
+                            DES MÉNAGES</b>
                           <div class="time-112023-3">
                             Time: 11/2023 - 11/2028
                           </div>
@@ -484,8 +667,8 @@
                           <div class="funding3">Funding</div>
                         </div>
                         <div class="frame-div">
-                          <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"/>
+                          <img class="icons8-share-60-1" alt="" src="./public/icons8share60-13@2x.png"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                           <div class="icons8-heart-50-1-parent1">
                             <img class="icons8-heart-50-13" alt="" src="./public/icons8heart50-12@2x.png" />
@@ -499,8 +682,17 @@
                       <img class="frame-icon1" alt="" src="./public/frame1.svg" />
 
                       <div class="frame12">
-                        <div class="events-is-taking">
+                        <div class="events-is-taking home-active-language l-english ">
                           Events Is Taking Place
+                        </div>
+                        <div class="events-is-taking home-disable-language l-vietnamese">
+                          Sự kiện đang diễn ra
+                        </div>
+                        <div class="events-is-taking home-disable-language l-japanese">
+                          イベントが開催されています
+                        </div>
+                        <div class="events-is-taking home-disable-language l-french">
+                          Des événements ont lieu
                         </div>
                         <img class="frame-inner" alt="" src="./public/line-1.svg" />
                       </div>
@@ -535,12 +727,12 @@
     </div>
   </div>
   <script>
+
     // Lắng nghe sự kiện khi click vào một mục trong dropdown
     document.querySelectorAll('.dropdown-item').forEach(function (item) {
       item.addEventListener('click', function () {
         // Lấy nội dung của mục được chọn
         var selectedText = this.textContent.trim();
-
         // Cập nhật nút chính của dropdown với nội dung của mục được chọn
         var dropdownButton = document.getElementById('dropdownMenu2');
         dropdownButton.textContent = selectedText;
@@ -562,6 +754,21 @@
 
       // Thông báo hoặc xử lý sau khi copy thành công
       alert('Copy Successful!');
+    }
+
+    function switchLanguageForPage(language) {
+      var jp = Array.from(document.getElementsByClassName(language));
+      var activeLanguage = Array.from(document.getElementsByClassName("home-active-language"))
+
+      activeLanguage.forEach((item) => {
+        item.classList.remove("home-active-language")
+        item.classList.add("home-disable-language")
+      })
+
+      jp.forEach((item) => {
+        item.classList.remove("home-disable-language")
+        item.classList.add("home-active-language")
+      })
     }
 
   </script>

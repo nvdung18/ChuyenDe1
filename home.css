@@ -783,6 +783,7 @@ b{
   display: inline-block;
   width: 481.2px;
   height: 29.3px;
+  font-size: 18px;
 }
 
 .time-112023-1,
@@ -1080,8 +1081,9 @@ b{
   top: 0;
   left: 0;
   display: inline-block;
-  width: 468.2px;
+  width: max-content;
   height: 28.7px;
+  font-size: 18px;
 }
 
 .time-112023-3 {
@@ -1256,7 +1258,7 @@ b{
   top: 0;
   font-weight: 600;
   display: inline-block;
-  width: 400.6px;
+  width: 500.6px;
   height: 43px;
 }
 
@@ -1359,4 +1361,7 @@ b{
 }
 #contentToCopy{
   width: 100% !important;
+}
+.home-disable-language{
+  display: none;
 }

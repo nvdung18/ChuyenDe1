@@ -74,18 +74,19 @@
 .button6 {
     position: relative;
     font-weight: 600;
+    width: max-content !important;
     white-space: nowrap;
 }
 
 .component-11 {
     border-radius: 8px;
     background-color: #30cdbd;
-    width: 177.4px;
+    width: 188.4px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 24px 56px;
+    padding: 23px 24px;
     box-sizing: border-box;
     text-align: left;
     font-size: 20px;
@@ -124,3 +125,10 @@
     color: #2e4049;
     font-family: "Work Sans";
 }
+.header-disable-language{
+    display: none;
+  }
+  .header-active-language{
+    display: block;
+    width: max-content;
+  }
